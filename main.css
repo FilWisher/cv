@@ -19,6 +19,16 @@ p {
   margin: 0 auto;
 }
 
+.subsection .title a {
+  text-decoration: none;
+  color: #FF1C1C;
+}
+
+.subsection .title a:visited {
+  text-decoration: none;
+  color: #FF0a0a;
+}
+
 .subsection .subtitle {
   margin-top: 1.5em;
   padding-bottom: 0.2em;
@@ -30,6 +40,7 @@ p {
   float: left;
   margin-left: 5%;
   width: 75%;
+  font-size: 1.1em;
 }
 
 .subsection p {
@@ -41,6 +52,7 @@ p {
   font-weight: lighter;
   float: left;
   width: 20%;
+  line-height: 1.1em;
 }
 
 .subsection.grants .item-title{
