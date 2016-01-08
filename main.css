@@ -1,0 +1,57 @@
+h1 {
+  color: #FF1C1C;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, li {
+  font-family: 'Inconsolata';
+}
+
+p {
+  letter-spacing: 0.02em;
+}
+
+.subsection {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.subsection .subtitle {
+  margin-top: 1.5em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #ddd;
+}
+
+.subsection .item-title {
+  color: #FF1C1C;
+  float: left;
+  margin-left: 5%;
+  width: 75%;
+}
+
+.subsection p {
+  clear: both;
+}
+
+.subsection .dates {
+  color: #555;
+  font-weight: lighter;
+  float: left;
+  width: 20%;
+}
+
+.subsection.grants .item-title{
+  float: left;
+  margin-left: 0;
+  width: 60%;
+}
+
+.subsection.grants .amount{
+  float: left;
+  width: 20%;
+  text-align: right;
+}
+
