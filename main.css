@@ -19,6 +19,10 @@ p {
   margin: 0 auto;
 }
 
+.subsection .title {
+  text-align: center;
+}
+
 .subsection .title a {
   text-decoration: none;
   color: #FF1C1C;
@@ -29,8 +33,15 @@ p {
   color: #FF0a0a;
 }
 
+.subsection .contacts p {
+  margin: 0 0 0 22%;
+  wijgjidth: 70%;
+  margiin-left: 25%;
+}
+
 .subsection .subtitle {
   margin-top: 1.5em;
+  margin-bottom: 0.5em;
   padding-bottom: 0.2em;
   border-bottom: 1px solid #ddd;
 }
@@ -39,6 +50,7 @@ p {
   color: #FF1C1C;
   float: left;
   margin-left: 5%;
+  margin-bottom: 0;
   width: 75%;
   font-size: 1.1em;
 }
@@ -47,9 +59,14 @@ p {
   clear: both;
 }
 
+.subsection .description {
+  padding-top: 1.3em;
+}
+
 .subsection .dates {
   color: #555;
   font-weight: lighter;
+  margin-bottom: 0;
   float: left;
   width: 20%;
   line-height: 1.1em;
